@@ -21,10 +21,14 @@ $ docker-compose up -d
 + password: wordpress
 
 ## Wordpress Access
- Configure on install
-+ user: user
+### Restore DB sample
+```
+$ npm run db:restore
+```
+Credentials
++ user: username
 + password: password
 
-```
+
 
 
