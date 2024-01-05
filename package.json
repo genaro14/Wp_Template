@@ -1,0 +1,21 @@
+{
+  "name": "wp_template",
+  "version": "1.0.0",
+  "description": "Wp_Template repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:dump": "docker exec database mysqldump wordpress --password=wordpress  > ./dump/db.dump",
+    "db:restore": "docker exec -i database mysql -u root -pwordpress wordpress < ./dump/db.dump"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genaro14/Wp_Template.git"
+  },
+  "author": "Genaro Pennone",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/genaro14/Wp_Template/issues"
+  },
+  "homepage": "https://github.com/genaro14/Wp_Template#readme"
+}
