@@ -1,4 +1,4 @@
-# HireLatamTest
+# Wordpress Template
 + Dockerized Wordpress instance 
 + Mariadb
 
@@ -25,7 +25,7 @@ $ docker-compose up -d
 ```
 $ npm run db:restore
 ```
-Credentials
+#### Credentials
 + user: username
 + password: password
 
